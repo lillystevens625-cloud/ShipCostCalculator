@@ -10,8 +10,8 @@ public class ShipCostCalculator {
         Scanner in = new Scanner(System.in);
 
         System.out.println("Enter the price of the item: ");
-        double price = 0;
-        double shipping = 0;
+        double price;
+        double shipping;
 
         if (in.hasNextDouble()) {
             price = in.nextDouble();
